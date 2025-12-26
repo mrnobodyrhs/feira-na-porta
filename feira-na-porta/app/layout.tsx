@@ -5,8 +5,15 @@ import { CartProvider } from "./providers/CartContext";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Feira na Porta",
-  description: "Produtos frescos direto do produtor",
+  title: "Feira na Porta 🚜",
+  description: "Produtos frescos, direto do produtor para sua mesa. Peça pelo WhatsApp!",
+  openGraph: {
+    title: "Feira na Porta 🚜",
+    description: "Faça sua feira online e receba em casa.",
+    siteName: "Feira na Porta",
+    locale: "pt_BR",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
